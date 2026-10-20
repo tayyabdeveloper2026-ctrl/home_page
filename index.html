@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Poppins',sans-serif;
+}
+
+body{
+    background:linear-gradient(135deg,#0f172a,#1e293b);
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    min-height:100vh;
+}
+
+.profile-card{
+    width:360px;
+    background:rgba(255,255,255,.08);
+    backdrop-filter:blur(20px);
+    border:1px solid rgba(255,255,255,.12);
+    border-radius:25px;
+    overflow:hidden;
+    text-align:center;
+    color:#fff;
+    box-shadow:0 20px 40px rgba(0,0,0,.35);
+    transition:.4s;
+}
+
+.profile-card:hover{
+    transform:translateY(-10px);
+}
+
+.cover{
+    height:130px;
+    background:linear-gradient(135deg,#3b82f6,#06b6d4);
+}
+
+.profile-card img{
+    width:130px;
+    height:130px;
+    border-radius:50%;
+    border:5px solid #fff;
+    object-fit:cover;
+    margin-top:-65px;
+}
+
+.profile-card h2{
+    margin-top:15px;
+    font-size:28px;
+}
+
+.profile-card span{
+    color:#38bdf8;
+    font-size:15px;
+    font-weight:500;
+}
+
+.profile-card p{
+    margin:20px;
+    color:#d1d5db;
+    font-size:14px;
+    line-height:1.6;
+}
+
+.stats{
+    display:flex;
+    justify-content:space-around;
+    padding:20px;
+    border-top:1px solid rgba(255,255,255,.1);
+    border-bottom:1px solid rgba(255,255,255,.1);
+}
+
+.stats h3{
+    color:#fff;
+    margin-bottom:5px;
+}
+
+.stats small{
+    color:#94a3b8;
+}
+
+.buttons{
+    display:flex;
+    justify-content:center;
+    gap:15px;
+    padding:25px;
+}
+
+.buttons a{
+    text-decoration:none;
+    color:#fff;
+    background:linear-gradient(135deg,#3b82f6,#06b6d4);
+    padding:12px 28px;
+    border-radius:50px;
+    font-weight:600;
+    transition:.3s;
+}
+
+.buttons a:last-child{
+    background:transparent;
+    border:2px solid #38bdf8;
+}
+
+.buttons a:hover{
+    transform:translateY(-3px);
+    box-shadow:0 10px 20px rgba(6,182,212,.35);
+}
+</style>
+<body>
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modern Profile Card</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="profile-card">
+
+    <div class="cover"></div>
+
+    <img src="heropageimage.jpeg" alt="Profile">
+
+    <h2>Muhammad Tayyab</h2>
+    <span>Frontend Developer</span>
+
+    <p>
+        Passionate Frontend Developer creating modern,
+        responsive and user-friendly websites with clean UI/UX.
+    </p>
+
+    <div class="stats">
+
+        <div>
+            <h3>50+</h3>
+            <small>Projects</small>
+        </div>
+
+        <div>
+            <h3>2+</h3>
+            <small>Years</small>
+        </div>
+
+        <div>
+            <h3>78%</h3>
+            <small>Clients</small>
+        </div>
+
+    </div>
+
+    <div class="buttons">
+        <a href="#">Follow</a>
+        <a href="#">Message</a>
+    </div>
+
+</div>
+
+</body>
+</html>
+    
+</body>
+</html>
